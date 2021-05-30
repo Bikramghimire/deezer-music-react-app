@@ -14,7 +14,7 @@ function App() {
     })
       .then((response) => response.json())
       .then((res) => {
-        console.log(res.data);
+        // console.log(res.data);
         setItems(res.data);
       })
       .catch((err) => {
